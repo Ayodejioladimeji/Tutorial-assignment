@@ -291,3 +291,49 @@ body {
   background: white;
   color: #f95353;
 }
+
+/* =================================== */
+/* FOOTER SECTION */
+footer {
+  text-align: center;
+  color: white;
+  padding: 100px 10px 10px 10px;
+}
+
+footer p {
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+
+footer .footer-icons {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+footer .footer-icons .socials {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s linear;
+  cursor: pointer;
+}
+
+.socials .fa {
+  font-size: 23px;
+}
+
+.socials:hover {
+  background: white;
+}
+
+.socials:hover .fa {
+  color: #2b2344;
+}
