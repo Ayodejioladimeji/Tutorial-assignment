@@ -293,6 +293,25 @@ body {
 }
 
 /* =================================== */
+/* CONTACT SECTION */
+.contact {
+  width: 100%;
+  display: flex;
+}
+
+.contact-left {
+  width: 60%;
+  background: red;
+  height: 600px;
+}
+
+.contact-right {
+  width: 40%;
+  background: orange;
+  height: 600px;
+}
+
+/* =================================== */
 /* FOOTER SECTION */
 footer {
   text-align: center;
